@@ -1,0 +1,12 @@
+E:\SideProject\StockPlatform\StockRepository\bin\Debug\netcoreapp3.1\StockRepository.deps.json
+E:\SideProject\StockPlatform\StockRepository\bin\Debug\netcoreapp3.1\StockRepository.runtimeconfig.json
+E:\SideProject\StockPlatform\StockRepository\bin\Debug\netcoreapp3.1\StockRepository.runtimeconfig.dev.json
+E:\SideProject\StockPlatform\StockRepository\bin\Debug\netcoreapp3.1\StockRepository.dll
+E:\SideProject\StockPlatform\StockRepository\bin\Debug\netcoreapp3.1\StockRepository.pdb
+E:\SideProject\StockPlatform\StockRepository\obj\Debug\netcoreapp3.1\StockRepository.csprojAssemblyReference.cache
+E:\SideProject\StockPlatform\StockRepository\obj\Debug\netcoreapp3.1\StockRepository.AssemblyInfoInputs.cache
+E:\SideProject\StockPlatform\StockRepository\obj\Debug\netcoreapp3.1\StockRepository.AssemblyInfo.cs
+E:\SideProject\StockPlatform\StockRepository\obj\Debug\netcoreapp3.1\StockRepository.csproj.CoreCompileInputs.cache
+E:\SideProject\StockPlatform\StockRepository\obj\Debug\netcoreapp3.1\StockRepository.dll
+E:\SideProject\StockPlatform\StockRepository\obj\Debug\netcoreapp3.1\StockRepository.pdb
+E:\SideProject\StockPlatform\StockRepository\obj\Debug\netcoreapp3.1\StockRepository.genruntimeconfig.cache
