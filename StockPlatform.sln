@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockRepository", "StockRep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockRepositoryTests", "StockRepositoryTests\StockRepositoryTests.csproj", "{42F200F0-A530-4B46-9246-86F66C207F7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockGeneralApi", "StockGeneralApi\StockGeneralApi.csproj", "{CB383A66-8A91-478A-BC3D-62DAF20CB2F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockGeneralWebApi", "StockGeneralWebApi\StockGeneralWebApi.csproj", "{CB383A66-8A91-478A-BC3D-62DAF20CB2F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

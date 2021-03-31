@@ -4853,11 +4853,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SideProject\\StockPlatform\\StockGeneralApi\\StockGeneralApi.csproj",
-      "projectName": "StockGeneralApi",
-      "projectPath": "E:\\SideProject\\StockPlatform\\StockGeneralApi\\StockGeneralApi.csproj",
+      "projectUniqueName": "E:\\SideProject\\StockPlatform\\StockGeneralWebApi\\StockGeneralWebApi.csproj",
+      "projectName": "StockGeneralWebApi",
+      "projectPath": "E:\\SideProject\\StockPlatform\\StockGeneralWebApi\\StockGeneralWebApi.csproj",
       "packagesPath": "C:\\Users\\Paul\\.nuget\\packages\\",
-      "outputPath": "E:\\SideProject\\StockPlatform\\StockGeneralApi\\obj\\",
+      "outputPath": "E:\\SideProject\\StockPlatform\\StockGeneralWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
