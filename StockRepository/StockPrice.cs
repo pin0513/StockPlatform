@@ -11,14 +11,21 @@ namespace StockRepository
         public double getStockReportPrice(in int stockId, string date, string field_name)
         {
             var twseStockDayReportRequestUrl = "https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date={0}&stockNo={1}&_=1615738116281";
-            
-            var queryDate = DateTime.ParseExact(date, "yyyyMMdd", null);
+            DateTime queryDate;
+            try
+            {
+                queryDate = DateTime.ParseExact(date, "yyyyMMdd", null);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("日期格式不正確，應為yyyyMMdd");
+            }
 
             CultureInfo culture = new CultureInfo("zh-TW");
             culture.DateTimeFormat.Calendar = new TaiwanCalendar();
 
-            var queryDateStr = string.Empty; 
-            queryDateStr = queryDate.ToString("yyy/MM/dd",culture);
+            var queryDateStr = string.Empty;
+            queryDateStr = queryDate.ToString("yyy/MM/dd", culture);
 
             RestSharp.RestClient rc = new RestClient(String.Format(twseStockDayReportRequestUrl, date, stockId));
             var rcResponse = rc.Get(new RestRequest());
